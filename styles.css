@@ -1,0 +1,57 @@
+body {
+  font-family: "Roboto Mono" monospace;
+}
+
+.header {
+  width: 100%;
+}
+
+.profile-picture {
+  height: 175px;
+  width: 175px;
+  border-radius: 50%;
+  border: 2.5px solid black;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 15px;
+}
+
+.title-name {
+  padding-top: 2rem;
+}
+
+.title-description {
+  margin-top: 1.5px;
+  padding-left: 2rem;
+  border: 1.5px solid black;
+  clear: both;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+}
+.left-box {
+  border: 1.5px solid black;
+  margin-top: 0.5px;
+  width: 25%;
+  padding: 10px;
+  padding-left: 20px;
+  display: inline-block;
+}
+
+.right-box {
+  width: 75%;
+  border: 1.5px solid black;
+  margin-left: 2.5px;
+  margin-top: 0.5px;
+  padding: 10px;
+  padding-left: 30px;
+  display: inline-block;
+}
+
+footer {
+  margin-top: 5px;
+  display: block;
+  text-align: center;
+}
