@@ -1,7 +1,3 @@
-body {
-  font-family: "Roboto Mono" monospace;
-}
-
 .header {
   width: 100%;
 }
@@ -20,11 +16,32 @@ body {
   padding-top: 2rem;
 }
 
+.contact-info {
+  font-size: 1rem;
+}
+
+.linkedin-icon {
+  margin-right: 3.5px;
+}
+
+.github-icon {
+  margin-right: 3.5px;
+}
+
+.leetcode-icon {
+  margin-right: 3.5px;
+}
+
 .title-description {
   margin-top: 1.5px;
-  padding-left: 2rem;
+  padding: 1.5rem;
   border: 1.5px solid black;
   clear: both;
+}
+
+.current-title {
+  text-align: center;
+  text-decoration: underline;
 }
 
 .main {
@@ -33,7 +50,7 @@ body {
 }
 .left-box {
   border: 1.5px solid black;
-  margin-top: 0.5px;
+  margin-top: 2.5px;
   width: 25%;
   padding: 10px;
   padding-left: 20px;
@@ -44,14 +61,60 @@ body {
   width: 75%;
   border: 1.5px solid black;
   margin-left: 2.5px;
-  margin-top: 0.5px;
+  margin-top: 2.5px;
   padding: 10px;
   padding-left: 30px;
   display: inline-block;
+}
+
+.job-title {
+  font-size: 1.35rem;
+  text-decoration: underline;
 }
 
 footer {
   margin-top: 5px;
   display: block;
   text-align: center;
+}
+
+body {
+  font-size: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+@media (max-width: 680px) {
+  .main {
+    display: block;
+    width: 100%;
+  }
+
+  .left-box,
+  .right-box {
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .profile-picture {
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+  }
+
+  div > h1,
+  p {
+    text-align: center;
+  }
+
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
 }
